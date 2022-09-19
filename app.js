@@ -11,6 +11,10 @@ if (process.env.NODE_ENV === 'development') {
 
 app.use(express.json());
 
+/**
+ * 
+ * @description Addition
+ */
 app.post('/api/v1/sum', (req, res, next) => {
   try {
     const { x, y } = req.body;
@@ -25,6 +29,10 @@ app.post('/api/v1/sum', (req, res, next) => {
   }
 });
 
+/**
+ * 
+ * @description Substraction
+ */
 app.post('/api/v1/subs', (req, res, next) => {
   try {
     const { x, y } = req.body;
@@ -39,6 +47,10 @@ app.post('/api/v1/subs', (req, res, next) => {
   }
 });
 
+/**
+ * 
+ * @description Multiplication
+ */
 app.post('/api/v1/mult', (req, res, next) => {
   try {
     const { x, y } = req.body;
@@ -53,6 +65,10 @@ app.post('/api/v1/mult', (req, res, next) => {
   }
 });
 
+/**
+ * 
+ * @description Division
+ */
 app.post('/api/v1/div', (req, res, next) => {
   try {
     const { x, y } = req.body;
