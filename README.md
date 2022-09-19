@@ -1,9 +1,8 @@
 # LarnU Fullstack Bootcamp
 
-## API_WEATHER APP
+## REST API
 
-Model View Controller Weather App using Javascript, CSS and Vite.
-Applicación del Clima usando Model Vista Controllador, Spinners
+express, node, jest testing, supertest, github actions ci/cd
 
 - yarn
 - yarn dev
