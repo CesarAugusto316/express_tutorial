@@ -10,3 +10,4 @@ express, node, jest testing, supertest, github actions ci/cd
 - yarn lint
 
 ![plot](./assets/Screenshot_2022-09-19_14-18-07.png)
+![plot](./assets/Screenshot_2022-09-19_14-40-20.png)
